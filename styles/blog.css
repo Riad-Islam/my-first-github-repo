@@ -1,4 +1,34 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: pink;
+    height: 60px;
+    padding-top: 20px;
+    padding-right: 30px;
+    text-align: right;
+}
+nav > ul > li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 25px;
+}
+nav li > a{
+    text-decoration: none;
+    color: black;
+}
 div{
     background-color: tomato;
     padding: 10px;
+    text-align: center;
+}
+main > div > h2{
+    text-decoration: dashed;
+}
+footer{
+    background-color: black;
+    height: 13px;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
